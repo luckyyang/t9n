@@ -1,4 +1,6 @@
+
 if (Meteor.isClient) {
+  accountsUIBootstrap3.setLanguage('zh'); // for Spanish
   // counter starts at 0
   Session.setDefault('counter', 0);
 
